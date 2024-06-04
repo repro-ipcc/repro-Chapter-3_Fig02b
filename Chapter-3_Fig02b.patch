@@ -1,0 +1,13 @@
+diff --git a/ch03_fig2b_code.py b/ch03_fig2b_code.py
+index 08dbe04..5d9f2f4 100644
+--- a/ch03_fig2b_code.py
++++ b/ch03_fig2b_code.py
+@@ -294,7 +294,7 @@ plt.scatter(-50, -50,marker=avemarkers['CMIP6'][0],s=75,color='k',linewidths=1,e
+ plt.scatter(-50, -50,marker=avemarkers['CMIP5'][0],s=75,color='k',linewidths=1,edgecolors='k',facecolors='none',label='CMIP5')
+ plt.scatter(-50, -50,marker=avemarkers['nonCMIP'][0],s=75,color='k',linewidths=1,edgecolors='k',facecolors='none',label='non-CMIP')
+ leg = plt.legend(edgecolor='None',facecolor='None',markerfirst=False,fontsize=9)
+-plt.show()
++plt.savefig("../Chapter-3_Fig02b.svg")
+ 
+ 
+ 
