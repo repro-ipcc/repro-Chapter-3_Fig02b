@@ -1,3 +1,3 @@
-mamba env create -f environment.yml
-mamba init
-mamba activate ipcc_py37
+#!/bin/sh
+mamba env create -n ipcc_ch3f02b -f environment.yml
+

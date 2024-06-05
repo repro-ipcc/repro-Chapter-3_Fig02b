@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+
+eval "$(conda shell.bash hook)"
+conda activate ipcc_ch3f02b
 
 DIR=Chapter-3_Fig02b
 

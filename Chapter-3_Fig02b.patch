@@ -7,7 +7,7 @@ index 08dbe04..5d9f2f4 100644
  plt.scatter(-50, -50,marker=avemarkers['nonCMIP'][0],s=75,color='k',linewidths=1,edgecolors='k',facecolors='none',label='non-CMIP')
  leg = plt.legend(edgecolor='None',facecolor='None',markerfirst=False,fontsize=9)
 -plt.show()
-+plt.savefig("../Chapter-3_Fig02b.svg")
++plt.savefig("../Chapter-3_Fig02b.pdf")
  
  
  
