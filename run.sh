@@ -7,11 +7,11 @@ DIR=Chapter-3_Fig02b
 
 # Apply changes to produce figure of $DIR
 
-echo Patching $DIR
-cd $DIR
-
 # download the source PNG from IPCC
 wget https://www.ipcc.ch/report/ar6/wg1/downloads/figures/IPCC_AR6_WGI_Figure_3_2.png
+
+echo Patching $DIR
+cd $DIR
 
 patch < ../${DIR}.patch
 
